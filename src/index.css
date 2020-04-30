@@ -1,13 +1,574 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@media(max-width:375px) {
+  .container {
+    max-width: 375px;
+    font-size: 13px;
+    color: #3d3d3d;
+    padding-right: auto;
+    padding-left: auto;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+  }
+
+  .carousel {
+    max-height: 160px;
+  }
+
+  button {
+    max-width: 50;
+  }
+
+  .text-p {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 20px;
+    font-size: 10px;
+    background: rgb(255, 255, 255) transparent;
+  }
+
+  i {
+    color: #b8860b;
+    width: 20px !important;
+    height: 20px !important;
+    align-items: center;
+  }
+
+  .service-small {
+    font-size: 8px;
+    border: 1px solid #b8860b;
+  }
+
+  .garis-kanan {
+    border: 0px solid;
+    border-right: 1px solid #3d3d3d;
+    padding: auto;
+    line-height: 5px;
+    margin: 8px 0;
+    max-height: auto;
+  }
+
+  .navbar {
+    background-color: #b8860b;
+    color: #FFF;
+    position: fixed;
+    /* padding: 15px 0px; */
+  }
+
+  .fluid {
+    padding-top: 45px;
+  }
+
+  .cb {
+    max-width: 1170px;
+    border: 1px solid;
+    border-color: #b8860b;
+  }
+
+  .padding {
+    margin-bottom: 10px;
+  }
+
+  .padding1 {
+    padding: 10px 0px 0px 0px;
+    justify-content: space-between;
+  }
+
+  .padding-btn {
+    padding-top: 4px;
+  }
+
+  .btn-color {
+    color: #FFF;
+    background-color: #b8860b;
+    border-radius: 4px;
+    font-size: 13px;
+    padding-left: 4px;
+    padding-right: 4px;
+    width: 181px;
+  }
+
+  main .img-thumbnail {
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    max-height: 180px;
+  }
+
+  .psize {
+    font-size: 10px;
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Phone */
+
+@media(min-width:750px) {
+  .container {
+    max-width: 750px;
+    font-size: 13px;
+    color: #3d3d3d;
+    padding-right: auto;
+    padding-left: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .list-group {
+    max-width: 100%;
+  }
+
+  .paddingcek {
+    padding-left: 0px;
+  }
+
+  .text-p {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 20px;
+    font-size: 12px;
+    background: rgb(255, 255, 255) transparent;
+  }
+
+  i {
+    color: #b8860b;
+    width: 30px !important;
+    height: 30px !important;
+    align-items: center;
+  }
+
+  .service-small {
+    font-size: 10px;
+    border: 1px solid #b8860b;
+  }
+
+  .garis-kanan {
+    border: 0px solid;
+    border-right: 1px solid #3d3d3d;
+    padding: auto;
+    line-height: 5px;
+    margin: 8px 0;
+    max-height: auto;
+  }
+
+  .navbar {
+    background: transparent;
+    position: relative;
+    padding-top: 0%;
+  }
+
+  .cb {
+    max-width: 1170px;
+    border: 1px solid;
+    border-color: #b8860b;
+    border-top: 0px;
+  }
+
+  .btn-color {
+    color: #FFF;
+    background-color: #b8860b;
+    border-radius: 4px;
+    font-size: 13px;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+
+  main .img-thumbnail {
+    width: 100%;
+    max-width: 550px;
+    height: 100%;
+    max-height: 180px;
+  }
 }
+
+/* Tablets */
+
+@media(min-width:1170px) {
+  .container {
+    max-width: 1170px;
+    font-size: 13px;
+    color: #3d3d3d;
+    padding-right: auto;
+    padding-left: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .list-group-item {
+    font-size: 13px;
+    padding-top: 15px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #b8860b;
+    border-top: 1px solid #b8860b;
+    border-right: 1px solid #b8860b;
+  }
+
+  .paddingcek {
+    padding-left: 24px;
+  }
+
+  .text-p {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 20px;
+    font-size: 18px;
+    background: rgb(255, 255, 255) transparent;
+  }
+
+  i {
+    color: #b8860b;
+    width: 40px !important;
+    height: 40px !important;
+    align-items: center;
+  }
+
+  .service-small {
+    font-size: 14px;
+    border: 1px solid #b8860b;
+  }
+
+  .garis-kanan {
+    border-right: 1px solid #3d3d3d;
+    margin: 12px 0;
+    max-height: auto;
+  }
+
+  .navbar {
+    background: transparent;
+    position: relative;
+    padding-top: 0%;
+  }
+
+  .cb {
+    max-width: 1170px;
+    border: 1px solid;
+    border-color: #b8860b;
+    border-top: 0px;
+  }
+
+  .btn-color {
+    color: #FFF;
+    background-color: #b8860b;
+    border-radius: 4px;
+    font-size: 13px;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+
+  main .img-thumbnail {
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    max-height: 180px;
+  }
+}
+
+/* Desktop */
+
+/* CSS Header start*/
+
+.header {
+  margin: 15px;
+  margin-bottom: 0px;
+  color: #333;
+}
+
+.align-self {
+  position: fixed-right;
+}
+
+.nav-item {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.img-thumbnail {
+  width: 200px;
+  max-height: 100px;
+}
+
+select {
+  max-height: 33px;
+  margin-inline: 0px;
+}
+
+.padding {
+  padding: 0px 16px;
+}
+
+/* CSS Header end*/
+
+/* CSS Body */
+
+.body {
+  margin: 15px;
+  margin-bottom: 0px;
+  font-family: Open Sans;
+  color: #333;
+  /* border: 1px solid #b8860b; */
+}
+
+/* Tab Css Start */
+
+.myTab {
+  border: 1px solid #b8860b;
+  border-top: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#myTab {
+  border-color: #b8860b;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#myTab a {
+  color: #333;
+  text-decoration: none;
+  border-bottom: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#myTab a:active {
+  color: #333;
+  text-decoration: none;
+  border-bottom: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#myTab a:hover {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  color: #333;
+  text-decoration: no-underline;
+}
+
+#myTab h1 {
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: no-underline;
+}
+
+#myTab p {
+  color: #333;
+  font-size: 12px;
+  text-decoration: no-underline;
+}
+
+.pd {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+/* Tab Css End */
+
+/* Personal Storage CSS Start */
+
+.content {
+  padding-left: 33px;
+}
+
+.row h1 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.btn-free {
+  color: #FFF;
+  background-color: #b8860b;
+  border-radius: 4px;
+  font-size: 13px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+/* Personal Storage CSS End */
+
+/* CSS Carousel Start */
+
+ol.carousel-indicators li, ol.carousel-indicators li.active {
+  width: 1rem;
+  height: 1rem;
+  margin: 0;
+  border-radius: 50%;
+  border: 0;
+  background: transparent;
+}
+
+.carousel-item {
+  height: 28rem;
+  text-align: center;
+}
+
+.carousel-item img {
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: auto;
+}
+
+.carousel-caption {
+  top: 50%;
+  font-family: Open Sans;
+  transform: translateY(-50%);
+  bottom: initial;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.carousel-caption h1 {
+  font-family: Open Sans;
+  font-weight: bold;
+}
+
+.carousel-caption h3 {
+  font-family: Open Sans;
+  background: rgba(0, 0, 0, 0.35);
+  font-style: italic;
+}
+
+/* CSS Carousel End */
+
+/* CSS button right body */
+
+.border-tipis {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  border-top: 0px;
+  border-bottom: 0px;
+}
+
+.ml-auto {
+  margin-left: auto;
+  width: 200px;
+  color: #FFF;
+  background-color: #b8860b;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background-image: none !important;
+  background-color: #806105 !important;
+}
+
+/* CSS button right body End*/
+
+/* Card Css Image 4 column */
+
+.rw {
+  margin: 0px;
+  border-bottom: 0px;
+  border-top: 0px;
+}
+
+.pb {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: 0px;
+  border: 1px solid #b8860b;
+}
+
+.bc {
+  border: 1px solid #b8860b;
+}
+
+.card-img-top {
+  max-height: 110px;
+}
+
+.card-body h5 {
+  font-family: Open Sans;
+  font-weight: bold;
+}
+
+.card-body p {
+  font-family: Open Sans;
+  font-size: 13px;
+}
+
+/* CSS Footer Start */
+
+.footer {
+  margin: 25px 15px 0px 15px;
+  color: #b8860b;
+  border: 1px;
+}
+
+li>p {
+  margin: 2px;
+}
+
+li .bold {
+  font-weight: bolder;
+  color: black;
+  margin-bottom: 10px;
+}
+
+/* CSS Footer End */
+
+/* CSS Business Storage Start */
+
+/* main {
+    border-top: 1px solid #b8860b;
+  } */
+
+.list-group .list-group-item {
+  font-size: 13px;
+  padding-top: 15px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #b8860b;
+  border-top: 1px solid #b8860b;
+  border-right: 1px solid #b8860b;
+}
+
+.list-group .list-group-item:hover {
+  background-color: #b8860b;
+}
+
+.list-group-hover .list-group-item:hover {
+  background-color: #a70e0e;
+}
+
+main h1 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+main p {
+  text-align: justify;
+  font-size: 13px;
+}
+
+.radius {
+  max-width: 557px;
+  max-height: 180px;
+  border: 2px solid #b8860b;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.card .card-header {
+  text-align: center;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #b8860b;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card h5 {
+  text-align: center;
+  font-size: 14px;
+}
+
+.padding0 {
+  padding: 0px;
+}
+
+/* CSS Business Storage End */
